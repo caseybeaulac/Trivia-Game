@@ -1,0 +1,49 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: url(../images/sport-wallpaper.png);
+  background-size: auto;
+  background-size: 1400px 900px;
+}
+#centerDiv {
+  position: relative;
+  top: 70px;
+}
+
+#startBtn {
+  color: black;
+  font-size: 30px;
+
+  position: relative;
+  top: 100px;
+}
+
+#startBtn:hover {
+  background-color: #769ed1;
+}
+
+#title {
+  font-family: myFont;
+  font-size: 50px;
+}
+button {
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../images/62DRAGZ.otf);
+}
+
+.container {
+  background-image: radial-gradient(
+    circle,
+    white 1%,
+    white 9%,
+    rgba(255, 0, 0, 0) 70%
+  );
+  height: 600px;
+}
